@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.hero-background{
+    min-height: 80dvh;
+    background: url('../assets/background/herosectionback.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-radius: 4rem;
+    padding: 1.3rem 3rem;
+    width: 90%;
+    position: fixed;
+    top: 14px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 99999999;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+nav ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.738);
+    transition: ease all .5s;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: white;
+}
+nav ul a img{
+    width: 60px;
+}
+nav .right {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+nav .right img {
+    width: 32px;
+}
+nav .right .search-box img{
+    width: 19px;
+}
+nav .right .search-box{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease all .5s;
+}
+nav .right .search-box:hover{
+    background-color: rgb(66, 66, 66);
+}
+
+
+/*  LEAD YOUR CLAN  */
+
+.clan-section{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    align-items:center;
+    padding: 4rem 0;
+}
+.clan-section img.mobile{
+    width: 922px;
+    /* transform: translate(-300px, 0px); */
+    margin-left: -315px;
+}
+.clan-section .texts h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.clan-section .texts p{
+    line-height: 30px;
+    padding: 0 51px 0 0;
+}
+.clan-section .badge-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.3rem;
+}
+.clan-section .badge-box img{
+    width: 148px;
+}
