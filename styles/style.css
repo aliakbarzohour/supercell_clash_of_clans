@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -120,7 +122,7 @@ swiper-container {
     overflow-x: visible;
 }
 
-  swiper-slide {
+swiper-slide {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,3 +166,55 @@ swiper-container {
 }
 
 
+
+
+swiper-container .swiper-button-next{
+    position: fixed !important;
+    right: 0;
+    border-radius: 3rem 0 0 3rem;
+    background: black;
+    width: 110px;
+}
+
+
+
+
+
+.news-section{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    align-items:center;
+    padding: 4rem 0;
+    background: url("../assets/background/bg_gamesocial_clashofclans.6d3e064f.webp");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.news-section .mobile{
+    margin-right: -400px;
+    width: 922px;
+}
+.news-section .texts{
+    padding: 0 0 0 5rem;
+}
+.news-section .texts h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.news-section .texts p{
+    line-height: 30px;
+    padding: 0 51px 0 0;
+    margin-bottom: 2rem;
+}
+.social-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.social-box img {
+    cursor: pointer;
+    width: 23px;
+}
